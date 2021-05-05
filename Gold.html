@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Gold.css"/>
+    <header>
+        <h2>Logo</h2>
+        <ul>
+            <li><a href="Gold.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+        </ul>
+    <div id="">
+        <img name="slide" width="100%" height="409px"/>
+        <script src="code.js"></script>
+        <script>
+            var i=0;
+            var images=[];
+            images[0]="mm.png"
+            images[1]="download.png"
+            images[2]="nn.png"
+            images[3]="gg.png"
+        function changeimg(){
+            document.slide.src=images[i];
+            if(i<images.length){
+                i++;
+            }else{
+                i=0
+            }
+            setTimeout("changeimg()", 5000);
+        }
+        window.onload=changeimg;
+        </script>
+    </div>
+        <!-- <div>
+            <h1 style="color: chocolate;">My Freelance Website.</h1>
+        </div> -->
+        <span class="gold">
+           <h4><img src="img/download.png" alt="Placeholder" height="400px" width="600px"/></h4>
+            <h2 id="gold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio vero possimus sunt corporis,
+                 repellendus distinctio animi dignissimos neque aliquid doloremque quisquam libero laborum 
+                 quos temporibus blanditiis vel officia et natus Lorem ipsum dolor sit amet consectetur 
+                 adipisicing elit. Similique rem perspiciatis delectus molestiae eveniet, tenetur, sunt 
+                 dolore quia ipsam placeat voluptatibus, magnam adipisci exercitationem at eius laudantium 
+                 omnis eligendi praesentium?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate,
+                  hic recusandae deleniti accusamus architecto dicta, illum corrupti nesciunt rerum eligendi assumenda
+                   a explicabo, sunt eos laborum quia! Nisi, culpa magni. Lorem ipsum dolor sit amet consectetur 
+                   adipisicing elit. Necessitatibus reprehenderit culpa impedit! Voluptatibus aliquam, explicabo 
+                   in quaerat mollitia consequuntur provident eius ex veniam quam. Laudantium provident non vel 
+                   consequuntur quod?
+                </h2>
+        </span>
+    </header>
+   
+   
+</body>
+</html>
